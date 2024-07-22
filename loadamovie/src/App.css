@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #141414;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #202020;
+  padding: 10px;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.navListItem {
+  margin: 0;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+.navLink:hover {
+  background-color: #333;
+}
+
+h2 {
+  text-align: center;
+}
+
+form, .todoContainer, .wishlistContainer, .counterContainer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.wishlistList, .todoList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wishlistListItem, .todoListItem {
+  background-color: #333;
+  padding: 10px;
+  margin: 5px;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wishlistDeleteButton, .todoDeleteButton {
+  background-color: red;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
